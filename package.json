@@ -1,0 +1,27 @@
+{
+  "name": "http_example",
+  "description": "HTTP plugin for hapi example.",
+  "version": "0.0.0",
+  "author": "Ben Acker",
+  "private": true,
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nvcexploder/http_example"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "hapi": "1.x.x"
+  },
+  "devDependencies": {
+    "hapi": "1.x.x",
+    "lab": "0.2.x"
+  },
+  "scripts": {
+    "test": "make test-cov"
+  }
+}
